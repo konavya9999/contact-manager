@@ -1,5 +1,6 @@
 import { Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './organisation.css';
 function Organisation(){
     return(
         <>
