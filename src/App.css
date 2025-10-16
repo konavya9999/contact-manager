@@ -3,38 +3,3 @@
   
 }
 
-.container{
-  display: grid;
-  grid-template-rows: 70px 1fr ;
-  grid-template-columns: 20% 1fr 1fr;
-  grid-template-areas: 
-        "header header header" /*1st row*/
-        "sidebar main-layout main-layout"  ;/*2nd row*/
-  height: 100vh;
-
-}
-
-.header{
-  grid-area: header;
-  background-color: aqua;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sidebar{
-  grid-area: sidebar;
-  background-color: brown;
-}
-
-.main-layout{
-  grid-area: main-layout;
-  background-color: bisque;
-}
-
-.container-login{
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
