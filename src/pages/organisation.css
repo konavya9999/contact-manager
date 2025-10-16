@@ -1,0 +1,14 @@
+.search-div{
+  display: inline-block;
+  padding: 10px;
+
+}
+.table-div{
+  padding: 10px;
+  display: flex;
+}
+.button-div{
+  padding: 10px;
+  display: flex;
+  gap: 55px;
+}
